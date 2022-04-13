@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Organization created successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="17861" started-at="2022-04-12T10:21:58Z" finished-at="2022-04-12T10:22:15Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="17861" started-at="2022-04-12T10:21:58Z" finished-at="2022-04-12T10:22:15Z">
+      <class name="com.crm.organization.CreateOrganizationNameTest">
+        <test-method status="PASS" signature="openDataBase()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="openDataBase" is-config="true" duration-ms="642" started-at="2022-04-12T10:21:57Z" finished-at="2022-04-12T10:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDataBase -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="launchBrowser" is-config="true" duration-ms="4893" started-at="2022-04-12T10:21:58Z" finished-at="2022-04-12T10:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="loginToApplication" is-config="true" duration-ms="2097" started-at="2022-04-12T10:22:02Z" finished-at="2022-04-12T10:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="CreateOrganizationNameTest()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="CreateOrganizationNameTest" duration-ms="9038" started-at="2022-04-12T10:22:05Z" finished-at="2022-04-12T10:22:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Organization created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationNameTest -->
+        <test-method status="PASS" signature="logoutFromApplication()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="logoutFromApplication" is-config="true" duration-ms="1131" started-at="2022-04-12T10:22:14Z" finished-at="2022-04-12T10:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="closeBrowser" is-config="true" duration-ms="680" started-at="2022-04-12T10:22:15Z" finished-at="2022-04-12T10:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDBConnection()[pri:0, instance:com.crm.organization.CreateOrganizationNameTest@6fadae5d]" name="closeDBConnection" is-config="true" duration-ms="1" started-at="2022-04-12T10:22:15Z" finished-at="2022-04-12T10:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- com.crm.organization.CreateOrganizationNameTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

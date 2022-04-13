@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.crm.organization.CreateOrganizationWithAssignedToMarketingGroup_TC11_Test">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="openDataBase"/>
+          <include name="CreateOrganizationWithAssignedToMarketingGroup_TC11Test"/>
+        </methods>
+      </class> <!-- com.crm.organization.CreateOrganizationWithAssignedToMarketingGroup_TC11_Test -->
+      <class name="com.crm.organization.CreateOrgNamewithDropDownTest">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="openDataBase"/>
+          <include name="CreateOrgNamewithDropDownTest"/>
+        </methods>
+      </class> <!-- com.crm.organization.CreateOrgNamewithDropDownTest -->
+      <class name="com.crm.organization.CreatingNewOrganizationEmailOptOutSelectOptionIsEnabledOrNot_TC_9Test">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="CreatingNewOrganizationEmailOptOutSelectOptionIsEnabledOrNot_TC_9Test"/>
+          <include name="openDataBase"/>
+        </methods>
+      </class> <!-- com.crm.organization.CreatingNewOrganizationEmailOptOutSelectOptionIsEnabledOrNot_TC_9Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
